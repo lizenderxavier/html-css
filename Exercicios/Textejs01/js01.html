@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TExt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1 id="pop">Calculadora</h1>
+     <p>
+         <input type="number" id="n1"> + <input type="number" id="n2"> <input type="button" value="Somar" id="bb" onclick="som()">
+     </p>
+     <p id="r">
+        Resultado:
+     </p>
+
+
+    <div id="cx" onmouseenter="pol()" onmouseout="pul()" onclick="cl()">
+        <h1 id="tt" onmouseenter="pol()" onmouseout="pul()" onclick="cl()">Interaja</h1>
+    </div>
+    
+    
+</body>
+<script>
+     var b=document.getElementById('cx')
+     var c=document.getElementById('tt')
+     var r=document.getElementById('r')
+
+     function som(){ 
+         var n1=document.getElementById('n1')
+         var n2=document.getElementById('n2')
+         n1=Number(n1.value)
+         n2=Number(n2.value)
+         s=n1+n2
+         r.innerText=`Resultado: ${s}`
+
+
+
+
+
+     }
+
+
+
+
+
+
+
+    function pol(){
+             
+         b.style.background='white'
+         c.innerText='Neflix'
+         b.style.color='red'
+         
+
+
+    }
+    function pul(){
+             
+             b.style.background='black'
+             b.style.color='yellow'
+             c.innerText='Interaja'
+    
+        }
+        function cl(){
+             
+             b.style.color='red'
+             b.style.background='black'
+             c.innerText='clicou!'
+    
+        }
+</script>
+</html>

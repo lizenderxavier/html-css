@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpa</title>
+    <style>
+        body{
+            background-color: rgb(39, 44, 44);
+            color: aqua;
+            font: normal 16pt Arial;
+            text-align: center;
+        }
+        h1{
+            color: rgb(253, 186, 0);
+        }
+       
+        
+        
+    </style>
+</head>
+<body>
+     <h1>Imagens Dinâmicas</h1>
+     <p>Tente abrir esse cite em vários dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegador.    
+     </p>
+     <p style="text-align: center;">
+         <picture>
+             <source media="(max-width:750px)" srcset="imagens/imagem-p1.png" type="image/png">
+            <source media="(max-width:1050px )" srcset="imagens/imagem-p2.png" type="image/png">
+            <img src="imagens/imagem-p3.png" alt=" foto flexivel">
+         </picture>
+     </p>
+
+   <h1>Músicas</h1>
+   HopHip <br>
+   <audio src="mideas/HopHip.mp3" controls autoplay loop ></audio><br>
+   Twisted <br> 
+   <audio preload="metadata" controls loop >
+    <source src="mideas/Twisted.mp3" type="audio/mpeg">
+        <source src="mideas/Twisted.ogg" type="audio/ogg">
+            <source src="mideas/Twisted.wav" type="audio/wav">
+<p> Infelizmente o seu navegador não consegue reproduzir audio <a href="mideas/Twisted.mp3" >click aqui para baixar em MP3</a></p>
+
+
+    
+   </audio>
+   <p>
+       <a href="dowloads.html" target="_self">Click aqui para ir para página de Downloads</a>
+   </p>
+
+    
+</body>
+</html>

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'cartoon';
+    src: url('../ex0016/fonts/Fifth-Grader.ttf')
+     format('truetype');}
+body{
+    background-color: rgb(92, 0, 84);
+    font: 2em'cartoon',Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+div{
+    background-color: #000000;
+    width: 200px;
+    height: 200px;
+    line-height: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 30px;
+}
+#pop{
+    color: yellowgreen;
+   
+}
+#n1{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    font-size: 1em;
+    text-align: center;
+}
+#n2{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    font-size: 1em;
+    text-align: center;
+   
+
+}
+#bb{
+    height: 60px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+   
+
+
+}

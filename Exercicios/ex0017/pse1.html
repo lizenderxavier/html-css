@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSCSS</title>
+    <style>
+        div{
+            background-color: #ffffff;
+            /*display: inline-block;*/
+            border: 1px solid red;
+            width: 300px;
+            height: 200px;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px;
+            text-align: center;
+            line-height: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: red;
+            font-size: 2em;
+
+        }
+        body{
+            background-color: #000000;
+        }
+        div:hover{
+            background-color: black;
+        }
+        #pp{
+            line-height: 40px;
+            height: 200px;
+        }
+        div > p#gol{
+            display: none;
+        }
+        div:hover > p#gol{
+            display: block;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div>
+      Netflix
+    </div>
+    <div>
+        Youtube
+    </div>
+    
+    
+    <div id="pp" >
+    <p>
+        Sustos!
+    </p>
+        
+        <p id="gol" style="font-size: 1em;">
+            BOO!
+        </p>
+    </div>
+
+    
+</body>
+</html>

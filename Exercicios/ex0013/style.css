@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(32, 63, 63);
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: justify;
+
+
+}
+h1{
+    color: rgb(0, 255, 229);
+    background-color: rgb(32, 107, 100);
+    font-size: 1.8em;
+}
+h2{
+    color: rgb(255, 187, 0);
+    font-size: 1.4em;
+}

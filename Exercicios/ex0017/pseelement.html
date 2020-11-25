@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoElements</title>
+    <style>
+        body{
+            background:rgb(21, 100, 124) ;
+        }
+        h1{
+            font: bold 2em 'Arial','Helvetica','sans-serif';
+            color:rgb(255, 183, 0);
+            text-align: center;
+            
+        }
+        a{
+            color: goldenrod;
+            text-decoration: none;
+            font: bold 1em 'Arial','Helvetica','sans-serif';
+
+        } 
+        a:visited{
+            color: rgb(255, 183, 0);
+        }
+        a:hover{
+            color: cyan;
+        } 
+        a::before{
+            content:'❄' ;
+            color: white;
+            
+        }
+        a::after{
+            content:' ↩' ;
+            color: turquoise;
+
+        }
+        a:active{
+            color: white;
+        }
+       
+       
+    </style>
+</head>
+<body>
+    <h1>Links</h1>
+
+    <ul type='square'>
+        <li><a href="https//youtube.com//cursoemvideo" target="_black" rel="external">Canal no youtube</a></li>
+        <li><a href="https://animeslog.com/" target="_black" rel="external">Site de Animes</a></li>
+    </ul>
+    
+    
+</body>
+</html>

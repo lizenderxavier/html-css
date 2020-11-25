@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpa</title>
+    <style>
+        body{
+            background-color: rgb(25, 26, 26);
+            font: normal 14pt Arial;
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+    </style> 
+
+<body>
+    <h1>Imágem Flexível</h1>
+
+    <p style="text-align: center;">
+        <picture >
+        
+                <source media="(max-width: 750px)" srcset="paisagem-p.png" type="image/png">
+    
+                <source media="(max-width: 1050px)" srcset="paisagem-m.png" type="image/png">
+                <img src="paisagem-g.png" alt="foto">
+            
+        </picture>
+    </p>
+    <h2 style="text-align: center;">
+        Ajusta-se a cada tipo de tela!
+    
+    </h2>
+
+    
+</body>
+</html>
